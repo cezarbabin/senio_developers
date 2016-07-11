@@ -2,11 +2,30 @@
 title: Welcome to Middleman
 ---
 <section>
-    <div class="wrapper">
-      <article class='content span-10'>
-        <h1> Plugin basics </h1>
-        <h2> Developers </h2>
-        <p>We’ve worked very hard to make Sketch the dream “designer toolbox”, but everyone has slightly different needs, and there is a good chance that there’s a feature that you would like, which we’ve not implemented.</p>
-      </article>
-    </div>
-    </section>
+	<div class="wrapper">
+    <div class="codeExample">
+    <code>
+    	<h3> <u> Emulate players </u></h3>
+    	<p>new Senio.runningSessionEmulation({’timeout’: 0.1}) <p>
+new Senio.cyclingSessionEmulation({’timeout’: 0.1})<p>
+new Senio.rowingSessionEmulation({’timeout’: 0.1})<p>
+<hr>
+<h3> <u> Return Object </u></h3>
+<p>
+{<p>
+	‘mileage’: 				0.1342,<p>
+	‘speed’:					0.1145,<p>
+	‘consistency’:			0.54,<p>
+	‘stride_per_second’: 	2.3,<p>
+... <p>
+<hr>
+<h3> <u> Binary Streams </u></h3><p>
+new Senio.binaryStream(’jumpEvent’)<p>
+new Senio.binaryStream(’x’)<p>
+new Senio.binaryStream(’y’)<p>
+new Senio.binaryStream(’speed’)<p>
+new Senio.binaryStream(’event’)</p>
+    </code>
+  </div>
+</div>
+  </section>
